@@ -34,8 +34,10 @@ server.get("/", (req, res) => {
 const port = 5000;
 server.listen(port, () => console.log(`\n** Running on port ${port}`))
 ```
-12. To keep the server running without restarting, install `npm i -D nodemon`
-13. Next, we go to deployment. heroku.com
+12. To keep the server running without restarting each time, install `npm i -D nodemon`
+13. `Commit` changes and `push` to Master
+13. Next, we go to deployment. *heroku.com*
 14. Heroku.com => `create app`
 15. Name it, and connect to `Github` (click accept)
-16. Connect to the `Github repo` you chose => `connect` 
+16. Connect to the `Github repo` you chose => `connect`
+17. If it throws you an error => disconnect and reconnect to the correct `repo`
